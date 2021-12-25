@@ -7,7 +7,7 @@ const App = () => {
     { id: 2, content: "play chess" },
   ]);
   return (
-    <div className="App">
+    <div className="App container">
     <h1 className="center blue-text">Todo's</h1>
       <Todos todos={todos}/>
     </div>
