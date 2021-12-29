@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Todos from "./Todos.js";
+import AddTodo from "./AddTodo.js";
 
 const App = () => {
   const [todos, setTodos] = useState([
@@ -13,6 +14,7 @@ const App = () => {
     <div className="App container">
       <h1 className="center blue-text">Todo's</h1>
       <Todos todos={todos} deleteTodo={deleteTodo} />
+      <AddTodo/>
     </div>
   );
 };
