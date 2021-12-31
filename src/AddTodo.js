@@ -11,8 +11,6 @@ const AddTodo = ({addTodo}) => {
     e.preventDefault();
     addTodo(content);
     setContent('');
-
-
   };
   return (
     <div>
